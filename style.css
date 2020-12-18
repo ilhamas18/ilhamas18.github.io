@@ -1,0 +1,123 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: url('image/bg.png');
+  /* background-color: rgba(95, 132, 187, 0.5); */
+}
+
+.navbar {
+  background-color: skyblue;
+  text-align: center;
+  padding: 2px;
+  font-size: 26px;;
+}
+
+.navbar h3 {
+  margin: 2px;
+  font-family: 'Langar', cursive;
+}
+
+.image #nature {
+  width: 1534px;
+  height: 460px;
+}
+
+.instructons-title {
+  display: inline;
+  font-size: 18px;
+  color: #00ffff;
+  font-family: 'Work Sans'
+}
+  
+.instructions-row {
+  margin: 0 auto;
+  width: 400px;
+  background-color: rgba(95, 132, 187, 0.5);
+  margin-left: 0;
+  margin-right: 0;
+  position: relative;
+  width: 1534px;
+  padding: 10px;
+  text-align: center;
+}
+  
+.instructions-number {
+  padding-right: 10px;
+  font-family: 'Work Sans';
+  font-size: 26px;
+  color: #00ffff;
+  text-align: center;
+}
+
+.instructions-text {
+  padding: 10px;
+  font-family: 'Work Sans', sans-serif;
+  font-size: 18px;
+  color: #13184b;
+}
+
+.box {
+  text-align: center;
+  position: relative;
+  border-bottom: 7px solid red;
+}
+
+.dadu-box {
+  margin: 10px;
+  cursor: pointer;
+}
+
+.flag-row {
+  background-color: rgba(169, 197, 117, 0.4);
+  text-align: center;
+  border-top: 7px solid white;
+}
+
+.flag {
+  margin: 10px;
+  cursor: pointer;
+}
+
+.start-reset {
+  position: inline;
+}
+
+#start {
+  margin: auto;
+  width: 120px;
+  height: 43px;
+  font-family: 'Work Sans';
+  background-color: #ed6536;
+  padding-top: 18px;
+  font-size: 18px;
+  text-align: center;
+  color: #010165;
+  margin-bottom: 21px;
+  font-weight: bold;
+  /* cursor: pointer; */
+}
+
+#reset {
+  margin: auto;
+  width: 120px;
+  height: 43px;
+  font-family: 'Work Sans';
+  background-color: #ed6536;
+  padding-top: 18px;
+  font-size: 18px;
+  text-align: center;
+  color: #010165;
+  margin-bottom: 21px;
+  cursor: pointer;
+  border-radius: 12px;
+  box-shadow: 5px 5px 5px rgba(0,0,0,0.8);
+  /* display: none; */
+}
+
+#reset:hover {
+  background-color: #010165;
+  color: #ed6536;
+  box-shadow: 0px 0px 0px;
+}
+
+
